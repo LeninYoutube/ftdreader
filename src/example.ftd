@@ -1,1 +1,27 @@
-
+FILE_INFO: "Example File for .ftd extension"
+;Yes, this is a comment and the fg in the standard stands for Fun Games
+;Originally intended FGAB(Fun Games AB), but didn't because it's confusing
+;Standard is FG-monthyear
+FILE_STANDARD: FG-DEC2023
+;Example syntax is: country-company_name-date_of_creation-special_name_for_company-their_latest_program_version_number-special_name
+FILE_ID: US-FUN_GAMES-12212023-FUNN_GAMEZ-1.0-NORMAN
+{
+  object1: OBJECT_NAME[
+    mdarrayname[
+      subarrayname[
+        1starrayobject[ ;check documentation for an understanding of the file structure
+          thing1: valueofthing1 ;done as many times as needed
+        ]
+      ]
+    ]
+  ]
+  object2: OBJECT_NAME[
+    mdarrayname[
+      subarrayname[
+        1starrayobject[ ;check documentation for an understanding of the file structure
+          thing1: valueofthing1 ;done as many times as needed
+        ]
+      ]
+    ]
+  ]
+}
